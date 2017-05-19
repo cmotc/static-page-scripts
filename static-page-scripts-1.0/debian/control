@@ -1,0 +1,16 @@
+Source: static-page-scripts
+Section: misc
+Priority: optional
+Maintainer: lair repo key <problemsolver@openmailbox.org>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+
+Package: static-page-scripts
+Architecture: all
+Depends: pkpage,scpage,hdpage
+Multi-Arch: foreign
+Description: shell scripts to generate static pages
+ a set of shell scripts that generate markdown documents or HTML files based on 
+ various common types of data.
+ .
+ second paragraph
